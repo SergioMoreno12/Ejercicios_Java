@@ -5,7 +5,7 @@ public class Ejercicio_4 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Random ale = new Random();
-        System.out.println("--------Aouesta y gana--------");
+        System.out.println("--------------Aouesta y gana--------------");
         System.out.println("Si sale 1, se multiplica por dos el dinero");
         System.out.println("Si sale 2, pierdes la mitad del dinero");
         System.out.println("si sale 3, pierdes todo el dinero");
@@ -29,6 +29,6 @@ public class Ejercicio_4 {
             System.out.println("¿Quieres continuar? 1 si, 2 no");
             desicion = teclado.nextInt();
         }while(desicion==1);
-
+        System.out.println("Ganaste: " + dinero);
     }
 }
