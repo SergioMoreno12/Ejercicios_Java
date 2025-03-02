@@ -52,11 +52,5 @@ public class Ejercicio_5 {
             System.out.println("--------------------------------------------------");
         }while (desicion==1);
         System.out.println("Gracias por usar la calculadora");
-
-
-
-
-
-
     }
 }
